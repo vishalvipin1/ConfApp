@@ -11,4 +11,6 @@ Frontend Link: https://github.com/vishalvipin1/ConfAppFrontendServer<br><br>
 Links: <br>
 1. https://firebase.google.com/ - Firebase <br>
 2. https://blog.research.google/2018/11/open-sourcing-bert-state-of-art-pre.html - BERT Language Model <br>
-3. https://developer.android.com/studio - Android Studio <br>
+3. https://developer.android.com/studio - Android Studio <br><br>
+
+Feel Free to contact vishaluxo@protonmail.ch for clarification
