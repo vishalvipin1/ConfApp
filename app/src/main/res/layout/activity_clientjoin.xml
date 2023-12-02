@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container"
+    tools:context=".clientjoin"
+    android:background="#27AAE1"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join Session"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="149dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Name"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="5dp"
+            />
+        <EditText
+            android:id="@+id/qname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Your Name"
+            android:textSize="16sp"
+            android:background="@drawable/edtbg"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Room Name"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/roomname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Room Name"
+            android:textSize="16sp"
+            android:background="@drawable/edtbg"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/cliroomjoin"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Join Room"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:onClick="joinLeaveChannel"
+            android:layout_marginTop="30dp"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "930315200043",
+    "project_id": "voice-9a612",
+    "storage_bucket": "voice-9a612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930315200043:android:270946c9b292d325a12c6e",
+        "android_client_info": {
+          "package_name": "com.srinikethandev.rtcv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930315200043-97v2e40j8kdu4odihs03m4ilgbipoug2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_5Mh-An8MsPHu-LKh8G-7TROf_cn7cjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930315200043-97v2e40j8kdu4odihs03m4ilgbipoug2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
