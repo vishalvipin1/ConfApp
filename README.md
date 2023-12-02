@@ -5,3 +5,10 @@ This app will allow conference attendees to ask questions directly to the lectur
 
 Services/Models/Software used: Firebase, BERT, Flask, Android Studio
 Team Members: Vishaal V, Srinikethan S
+Frontend Link: https://github.com/vishalvipin1/ConfAppFrontendServer
+
+**Note: Some files, code might have been outdated or deprecated, please refer to the original website for references**
+Links:
+1. https://firebase.google.com/ - Firebase
+2. https://blog.research.google/2018/11/open-sourcing-bert-state-of-art-pre.html - BERT Language Model
+3. https://developer.android.com/studio - Android Studio
